@@ -1,0 +1,124 @@
+  @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: url(fig_02.jpg)no-repeat;
+    background-size: cover;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.social{
+    position: fixed;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(-290px, 0);
+    
+}
+
+.social a{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    display: block;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: right;
+    border-radius: 50px;
+    transition: 1s;
+    transition-property: transform;
+}
+
+.social a:hover{
+    transform: translate(140px, 0);
+}
+
+.social i{
+    margin-left: 10px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.social a:nth-child(1) i{
+    color: #1DA0F0;
+}
+
+.social a:nth-child(2) i{
+    color: #f40404;
+}
+
+.social a:nth-child(3) i{
+    color: grey;
+    background-clip: text;
+    font-weight: 600;
+}
+
+section {
+    color: #dbe8ee;
+    flex: 1;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(55, 56, 56, 0.4);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(173, 69, 69, 0.1);
+}
+
+.container{
+    max-width: 1080px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+header{
+    background-color: #000000;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo{
+    width: 25%;
+}
+
+.logo img{
+    width: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.menu{
+    width: 50%;
+}
+
+.menu nav a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 18px;
+    position: relative;
+}
+
+.menu nav a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, #ff2500, #ff7100);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.menu nav a:hover::after{
+    width: 30px;
+}
