@@ -81,7 +81,7 @@ section {
 
 }
 header{
-    background-color: #000000;
+    background: rgba(0, 0, 0, 0.6);
     width: 100%;
     padding: 10px;
 }
@@ -121,4 +121,12 @@ header{
 
 .menu nav a:hover::after{
     width: 30px;
+}
+
+footer{
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin: 250px;
 }
