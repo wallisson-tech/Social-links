@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: url(fig_02.jpg)no-repeat;
+    background: #393e46;
     background-size: cover;
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
@@ -21,8 +21,8 @@ body{
 }
 
 .social a{
-    color: #fff;
-    background: rgba(0, 0, 0, 0.4);
+    color: #fd7014;
+    background: #eeeeee;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
@@ -48,28 +48,28 @@ body{
 }
 
 .social a:nth-child(1) i{
-    color: #1DA0F0;
+    color: #393e46;
 }
 
 .social a:nth-child(2) i{
-    color: #f40404;
+    color: #393e46;
 }
 
 .social a:nth-child(3) i{
-    color: grey;
+    color: #393e46;
     background-clip: text;
     font-weight: 600;
 }
 
 section {
-    color: #dbe8ee;
+    color: #222831;
     flex: 1;
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: rgba(55, 56, 56, 0.4);
+    background: #eeeeee;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(173, 69, 69, 0.1);
+    box-shadow: #393e46;
 }
 
 .container{
@@ -81,7 +81,7 @@ section {
 
 }
 header{
-    background: rgba(0, 0, 0, 0.6);
+    background: #222831;
     width: 100%;
     padding: 10px;
 }
@@ -101,7 +101,7 @@ header{
 }
 
 .menu nav a{
-    color: #ffffff;
+    color: #eeeeee;
     text-decoration: none;
     padding-right: 50px;
     font-size: 18px;
@@ -124,8 +124,8 @@ header{
 }
 
 footer{
-    background: rgba(0, 0, 0, 0.4);
-    color: white;
+    background: #222831;
+    color: #eeeeee;
     text-align: center;
     padding: 1em 0;
     margin: 250px;
