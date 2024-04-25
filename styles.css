@@ -12,50 +12,50 @@ body{
 
 .social{
     position: fixed;
-    height: 50vh;
+    height: 8vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transform: translate(-290px, 0);
-    
+    transform: translate(-360px, 0);
 }
 
 .social a{
     color: #fd7014;
     background: #eeeeee;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 600;
     text-decoration: none;
     display: block;
-    margin: 20px;
-    padding: 20px;
-    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    width: 400px;
     text-align: right;
-    border-radius: 50px;
+    border-radius: 15px;
     transition: 1s;
     transition-property: transform;
 }
 
 .social a:hover{
-    transform: translate(140px, 0);
+    transform: translate(130px, 0);
 }
 
-.social i{
+.social img{
     margin-left: 10px;
     font-size: 30px;
     width: 30px;
     height: 30px;
+    border-radius: 50px;
 }
 
-.social a:nth-child(1) i{
+.social a:nth-child(1) img{
     color: #393e46;
 }
 
-.social a:nth-child(2) i{
+.social a:nth-child(2) img{
     color: #393e46;
 }
 
-.social a:nth-child(3) i{
+.social a:nth-child(3) img{
     color: #393e46;
     background-clip: text;
     font-weight: 600;
