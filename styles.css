@@ -97,7 +97,7 @@ header{
 }
 
 .menu{
-    width: 50%;
+    width: 100%;
 }
 
 .menu nav a{
@@ -128,5 +128,9 @@ footer{
     color: #eeeeee;
     text-align: center;
     padding: 1em 0;
-    margin: 250px;
+    margin: 100px;
+}
+
+@media screen and (max-width:768px) {
+
 }
