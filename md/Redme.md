@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Projeto Engwall - Portfólio
 
 Bem-vindo ao projeto Engwall, um portfólio pessoal desenvolvido utilizando HTML, CSS e JavaScript. Este projeto está em constante evolução, e novas alterações e melhorias podem ser feitas a qualquer momento.
@@ -40,3 +41,7 @@ cd Social-links
 Abra o arquivo index.html em seu navegador.
 Contato
 Para mais informações ou feedback, entre em contato através do LinkedIn ou envie um email para seu-Email wallissonlopes.ti@gmail.com
+=======
+Olá esse é um projeto de Portfólio do Engwall uma página com HTML, CSS é JavaScript.
+É este projeto ainda está em processo de construção, havendo possibilidades de alteração a qualquer momento.ok.
+>>>>>>> cfb6c25ff9631ce1f068177c76b7491dfb6aff72
