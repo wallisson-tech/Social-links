@@ -1,4 +1,3 @@
-  @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
 body{
     margin: 0;
     padding: 0;
@@ -126,6 +125,10 @@ header{
 
 .titulo-principal {
     color: #ff7100;
+}
+
+.titulo-principal span:hover {
+    background-color: #393e46;
 }
 
 span {
