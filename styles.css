@@ -12,6 +12,8 @@ header{
     align-content: start;
     background: #222831;
     width: 100%;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
     height: 15%;
     padding: 10px
 }
@@ -83,7 +85,7 @@ header{
     margin: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 .logo{
@@ -125,6 +127,7 @@ header{
 
 .titulo-principal {
     color: #ff7100;
+    cursor: pointer;
 }
 
 .titulo-principal span:hover {
@@ -141,9 +144,10 @@ footer{
     background: #222831;
     color: #eeeeee;
     text-align: center;
-    padding: 1em 0;
-    margin: 100px;
-    width: 90%;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 @media screen and (max-width:768px) {
